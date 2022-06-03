@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: white;
+
+}
+
+body{
+    width: 750px;
+    height: 750px;
+    margin: auto;
+    background-color:white;
+}
+header{
+    width: 750px;
+    height: 250px;
+    background-color:cornflowerblue;
+    display: flex;
+    border-top: 10px solid black;
+    border-bottom:5px solid black;
+    border-left:10px solid black;
+    border-right: 10px solid black;
+   
+
+}
+nav{
+    width: 750px;
+    height: 50px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid black;
+    border-bottom:5px solid black;
+    border-left:10px solid black;
+    border-right: 10px solid black;
+
+}
+main{
+    width: 750px;
+    height: 400px;
+    background-color: grey;
+    display: flex;
+    border-top: 5px solid black;
+    border-bottom:5px solid black;
+    border-left:10px solid black;
+    border-right: 10px solid black;
+
+}
+footer{
+    width: 750px;
+    height: 50px;
+    background-color:rgb(230, 151, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid black;
+    border-bottom:10px solid black;
+    border-left:10px solid black;
+    border-right: 10px solid black;
+}
+ .banner{ 
+    width: 500px;
+    height: 225px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.logo{
+    width: 300px;
+    height: 235px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: white;
+    float:right;
+    justify-content:center;
+    align-items: center;
+    text-align: center;;
+    display: flex;;
+} 
+.article{
+    width: 450px;
+    height: 390px;
+    background-color: white;
+    float: left;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.aside{ 
+    width: 280px;
+    height: 390px;
+
+    background-color: white;
+    float: right;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
